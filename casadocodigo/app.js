@@ -1,8 +1,10 @@
 var express = require('express');
 var app = express();
 
+app.set('view engine','ejs');
+
 app.get('/products', (req, res) => {
-    res.send("<html><body><h1>Listing Products</h1></body></html>");
+    res.render("products/list");
 });
 
 var portToListen = 3000;
