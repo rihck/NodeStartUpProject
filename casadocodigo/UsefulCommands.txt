@@ -1,4 +1,5 @@
 npm init: Using the Node Package Manager to create the file with initial settings
 npm install express --save: Downloading the Express (Lib to help us with Requests using Node) dependencies (command "--save" help when developing in team, if someone download the project he just have do run "npm install" to pull all the project dependencies)
 npm install ejs --save: Downloading the EJS, used to add dinamic data to our html pages
+npm install -g nodemon: Lib to auto-restart node server when something changes, now we can use run node using "nodemon app". (Instaled with -g to be installed globally)
 
